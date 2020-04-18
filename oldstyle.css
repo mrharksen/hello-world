@@ -13,62 +13,6 @@ nav{
 	font-family: 'Old Standard TT', serif;
 }
 
-nav div h4 a{
-	font-family: 'Old Standard TT', serif;
-	text-decoration: none;
-	color: rgb(226,226,226);
-}
-
-nav ul{
-	float: left;
-}
-
-nav ul li{
-	float: left;
-	list-style: none;
-	position: relative;
-}
-
-nav ul li ul{
-	display: block;
-	position: absolute;
-	background-color: #5d4954;
-}
-
-nav ul li a{
-	display: block;
-	font-family: 'Old Standard TT', serif;
-	color: #222;
-	padding: 12px 8px;
-	text-decoration: none;
-}
-
-nav ul li ul {
-	display: none;
-	position: absolute;
-	background-color: #5d4954;
-	padding: 10px;
-	border-radius: 0px 0px 5px 5px;
-}
-
-nav ul li:hover ul {
-	display: block;
-}
-
-nav ul li ul li {
-	width: 180px;
-	border-radius: 4px;
-}
-
-nav ul li ul li a {
-	paddding: 12px 14px;
-}
-
-nav ul li ul li a:hover {
-	background-color: #8C6C7E;
-}
-
-
 .logo{
 	color: rgb(226,226,226);
 	text-transform: uppercase;
@@ -164,7 +108,6 @@ nav ul li ul li a:hover {
 .toggle .line3{
 	transform: rotate(45deg) translate(-4px,-6px);
 }
-
 
 
 
