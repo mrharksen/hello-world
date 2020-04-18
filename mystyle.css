@@ -33,8 +33,7 @@ nav ul li a{
 	display: block;
 	font-family: 'Old Standard TT', serif;
 	color: #222;
-	font-size: 14px;
-	padding: 22px 14px;
+	padding: 12px 8px;
 	text-decoration: none;
 }
 
@@ -43,7 +42,7 @@ nav ul li ul {
 	position: absolute;
 	background-color: #5d4954;
 	padding: 10px;
-	border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 nav ul li:hover ul {
