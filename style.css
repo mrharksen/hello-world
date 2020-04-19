@@ -172,7 +172,7 @@ nav ul li ul li a:hover {
 	color: #474747;
 	font-family: 'Vollkorn', serif;
 	background-color: #F3E3E3;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .mimir .titlar{
@@ -211,16 +211,17 @@ nav ul li ul li a:hover {
 }
 
 .gist {
-	max-width: 500px;
+	display: inline-flex;
+	max-width: 800px;
 	overflow: auto;
-	padding-left: 50px;
+	-moz-tab-size: 4;
+	tab-size: 4;
 }
 
-.gist .blob-wrapper.data {
-   max-height:400px;
-   overflow:auto;
+.gistcontainer{
+	padding: 25px;
+	padding-left: 80px;
 }
-
 
 
 
