@@ -6,6 +6,9 @@
 
 nav{
 	display: flex;
+	top: 0;
+	position: fixed;
+	width: 100%;
 	justify-content: space-around;
 	align-items: center;
 	min-height: 10vh;
@@ -163,6 +166,34 @@ nav ul li ul li a:hover {
 
 .toggle .line3{
 	transform: rotate(45deg) translate(-4px,-6px);
+}
+
+.mimir{
+	color: #474747;
+	font-family: 'Vollkorn', serif;
+	background-color: #F3E3E3;
+	height: 100vh;
+}
+
+.mimir .titlar{
+	font-size: 30px;
+	padding-left: 160px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.mimir .undirtitlar{
+	font-size: 20px;
+	padding-left: 80px;
+}
+
+.mimir .efni a{
+	color: #AA6AE4;
+	line-height: 30px;
+	padding-left: 40px;
+	display: inline-block;
+	padding-bottom: 20px;
+	text-decoration: none;
 }
 
 
