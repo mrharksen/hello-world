@@ -196,4 +196,14 @@ nav ul li ul li a:hover {
 	text-decoration: none;
 }
 
+.mimir .eqn {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+
+.mimir .eqn img{
+	height: 25px;
+}
+
 
