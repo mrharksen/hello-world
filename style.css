@@ -232,6 +232,8 @@ body .gist .gist-meta {
 
 	.gistcontainer{
 		padding-left: 10%;
+		padding-top: 1%;
+		padding-bottom: 0px;
 	}
 
 	body .gist .gist-meta {
@@ -252,7 +254,11 @@ body .gist .gist-meta {
 
 	.mimir .efni {
 		display: block;
+		padding-left: 5%;
+	}
 
+	.mimir .titlar {
+		padding-left: 15%
 	}
 
 }
