@@ -173,6 +173,7 @@ nav ul li ul li a:hover {
 	font-family: 'Vollkorn', serif;
 	background-color: #F3E3E3;
 	min-height: 100vh;
+	min-width: 100vw;
 }
 
 .mimir .titlar{
