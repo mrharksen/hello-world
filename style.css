@@ -218,6 +218,10 @@ nav ul li ul li a:hover {
     	display: none;
 	}
 
+	.gist .blob-code-inner{ 
+		font-size: 10px !important;
+	}
+
 	.mimir{
 		color: #474747;
 		font-family: 'Vollkorn', serif;
