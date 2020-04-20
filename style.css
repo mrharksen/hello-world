@@ -210,7 +210,7 @@ nav ul li ul li a:hover {
 	height: 25px;
 }
 
-.gist {
+body .gist {
 	display: inline-flex;
 	max-width: 800px;
 	overflow: auto;
@@ -221,6 +221,10 @@ nav ul li ul li a:hover {
 .gistcontainer{
 	padding: 25px;
 	padding-left: 80px;
+}
+
+body .gist .gist-meta {
+    display: none;
 }
 
 
