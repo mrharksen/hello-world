@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://notendur.hi.is/martin/raunvis/ipho_problems/theory/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ <!-- <meta charset="iso-8859-1" />-->
+  
+  <link rel="stylesheet" href="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/html-5-reset.css">
+  <link rel="stylesheet" href="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/style.css">
+  <link rel="stylesheet" href="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/layout.css">
+  <link rel="stylesheet" href="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/code.css">
+
+  <title>Ólympíukeppnir í eðlisfræði</title>
+	<script type="text/javascript" src="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./O&#769;lympi&#769;ukeppnir i&#769; eðlisfræði_files/jquery.tablesorter.min.js"></script>
+	<!--
+	<script type='text/javascript' src='/martin/cross-browser.com/x/x.js'></script>
+	<script type='text/javascript' src='/martin/cross-browser.com/x/lib/xtableheaderfixed.js'></script>
+	-->
+	<script type="text/javascript">
+	// jQuery plugin tablesorter makes the table sortable.
+	$(document).ready(function() 
+		{ 
+			$("#problemtable").tablesorter( {
+				sortList: [[0,0], [1,0], [2,0], [3,0], [4,0], [5,0], [6,0], [7,0], [8,0], [9,0], [10,0], [11,0]]
+			} ); 
+		} 
+	);
+  // xTableHeaderFixed fixes the table header so that it doesn't scroll past the top of the window.
+	xAddEventListener(window, 'load',
+		function() {
+			new xTableHeaderFixed('fixheader', window);
+		}, false
+	);
+	</script>
+	<style type="text/css">
+		header, section { margin: .5em; }
+		table { width: 100%; }
+		table, td { table-layout: fixed; }
+		th { background: #ddd; overflow:hidden; width: 1em; }
+		.problem { width: 5em; }
+		td, th { padding: .3em }
+		td { border: thin solid gray; text-align: center; }
+		tr.odd-number { background: #f2f2ff; }
+		.true { background-color: #bfa}
+	</style>
+</head>
+<body>
+
+<header>
+<h1>Dæmi úr fræðilega hluta IPhO</h1>
+<p>Dæmin hér að neðan eru flokkuð eftir efnishlutum úr efnisskrá IPhO. Þau voru tekin saman af <a href="http://notendur.hi.is/etha4/">Eiríki Þóri Ágústssyni</a> að undirlagi <a href="http://www.raunvis.hi.is/~sveinol/">Sveins Ólafssonar</a> þáverandi umsjónarmanns þjálfunarinnar.</p>
+</header>
+
+<section>
+<table id="problemtable" class="fixheader">
+<thead>
+<tr><th class="problem header headerSortDown">Dæmi</th><th title="Mechanics" class="header headerSortDown">Aflfræði</th><th title="Rotation" class="header headerSortDown">Snúningur</th><th title="Hydromechanics" class="header headerSortDown">Vökvfræði</th><th title="Thermodynamics" class="header headerSortDown">Varmafræði</th><th title="Oscillations" class="header headerSortDown">Sveiflur</th><th title="Electricity" class="header headerSortDown">Rafstöðufræði</th><th title="Magnetism" class="header headerSortDown">Segulsvið</th><th title="Electromagnetic waves" class="header headerSortDown">Rafsegulbylgjur</th><th title="Quantum mechanics" class="header headerSortDown">Skammtafræði</th><th title="Special relativity" class="header headerSortDown">Afstæðiskenningin</th><th title="Matter" class="header headerSortDown">Þéttefnisfræði</th></tr>
+</thead>
+<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T1-P.pdf">1967 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T2-P.pdf">1967 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T3-P.pdf">1967 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T4-P.pdf">1967 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1967_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T1-P.pdf">1968 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T2-P.pdf">1968 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flid true">•</td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T3-P.pdf">1968 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1968_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T1-P.pdf">1969 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T2-P.pdf">1969 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T3-P.pdf">1969 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T4-P.pdf">1969 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1969_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T1-P.pdf">1970 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T2-P.pdf">1970 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond true">•</td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T3-P.pdf">1970 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T4-P.pdf">1970 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1970_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T1-P.pdf">1971 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T2-P.pdf">1971 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T3-P.pdf">1971 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T4-P.pdf">1971 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1971_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T1-P.pdf">1972 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T2-P.pdf">1972 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T3-P.pdf">1972 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T4-P.pdf">1972 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1972_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T1-P.pdf">1974 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T2-P.pdf">1974 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T3-P.pdf">1974 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1974_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T1-P.pdf">1975 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T2-P.pdf">1975 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T3-P.pdf">1975 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1975_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T1-P.pdf">1976 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T2-P.pdf">1976 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T3-P.pdf">1976 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1976_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T1-P.pdf">1977 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T2-P.pdf">1977 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T3-P.pdf">1977 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1977_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T1-P.pdf">1979 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T2-P.pdf">1979 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T3-P.pdf">1979 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1979_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T1-P.pdf">1981 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T2-P.pdf">1981 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T3-P.pdf">1981 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1981_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T1-P.pdf">1982 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T2-P.pdf">1982 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T3-P.pdf">1982 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1982_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T1-P.pdf">1983 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T2-P.pdf">1983 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T3-P.pdf">1983 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T4-P.pdf">1983 Problem 4</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T4-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T5-P.pdf">1983 Problem 5</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1983_T5-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T1-P.pdf">1984 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="true">•</td>
+  <td class="osci ther"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T2-P.pdf">1984 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T3-P.pdf">1984 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1984_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T1-P.pdf">1985 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T2-P.pdf">1985 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T3-P.pdf">1985 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1985_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T1-P.pdf">1986 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T2-P.pdf">1986 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T3-P.pdf">1986 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1986_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T1-P.pdf">1987 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T2-P.pdf">1987 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T3-P.pdf">1987 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1987_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T1-P.pdf">1988 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T2-P.pdf">1988 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T3-P.pdf">1988 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1988_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T1-P.pdf">1989 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T2-P.pdf">1989 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T3-P.pdf">1989 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1989_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T1-P.pdf">1990 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T2-P.pdf">1990 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T3-P.pdf">1990 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1990_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td><!--færði þetta úr vökvafræði í snúning--></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T1-P.pdf">1991 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T2-P.pdf">1991 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T3-P.pdf">1991 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1991_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T1-P.pdf">1992 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T2-P.pdf">1992 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T3-P.pdf">1992 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1992_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T1-P.pdf">1993 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T2-P.pdf">1993 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T3-P.pdf">1993 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1993_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T1-P.pdf">1994 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T2-P.pdf">1994 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T3-P.pdf">1994 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1994_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T1-P.pdf">1995 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T2-P.pdf">1995 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T3-P.pdf">1995 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1995_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T1-P.pdf">1996 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui true">•</td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T2-P.pdf">1996 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T3-P.pdf">1996 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1996_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T1-P.pdf">1997 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T2-P.pdf">1997 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T3-P.pdf">1997 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1997_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T1-P.pdf">1998 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T2-P.pdf">1998 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T3-P.pdf">1998 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1998_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"><!--&bull; ég sé hvergi varmafræði hér --></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T1-P.pdf">1999 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T2-P.pdf">1999 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T3-P.pdf">1999 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_1999_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T1-P.pdf">2000 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond true">•</td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T2-P.pdf">2000 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T3-P.pdf">2000 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2000_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T1-P.pdf">2001 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci true">•</td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T2-P.pdf">2001 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T3-P.pdf">2001 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2001_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T1-P.pdf">2002 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T2-P.pdf">2002 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T3-P.pdf">2002 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2002_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T1-P.pdf">2003 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T2-P.pdf">2003 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T2-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T3-P.pdf">2003 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2003_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T1-P.pdf">2004 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T2-P.pdf">2004 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T3-P.pdf">2004 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2004_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T1-P.pdf">2005 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T2-P.pdf">2005 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T2-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn true">•</td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T3-P.pdf">2005 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2005_T3-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T1-P.pdf">2006 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T1-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T2-P.pdf">2006 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T3-P.pdf">2006 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2006_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui true">•</td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T1-P.pdf">2007 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec true">•</td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T2-P.pdf">2007 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther true">•</td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr>
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T3-P.pdf">2007 Problem 3</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2007_T3-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv true">•</td>
+  <td class="quan"></td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2008_T1-P.pdf">2008 Problem 1</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2008_T1-S.pdf">Solution</a>)</td>
+  <td class="mech true">•</td>
+  <td class="rota true">•</td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci true">•</td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan"></td>
+  <td class="rela"></td>
+  <td class="cond"></td></tr><tr class="odd-number">
+  <td><a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2008_T2-P.pdf">2008 Problem 2</a> (<a href="https://notendur.hi.is/martin/raunvis/ipho_problems/ipho_2008_T2-S.pdf">Solution</a>)</td>
+  <td class="mech"></td>
+  <td class="rota"></td>
+  <td class="flui"></td>
+  <td class="ther"></td>
+  <td class="osci"></td>
+  <td class="elec"></td>
+  <td class="magn"></td>
+  <td class="emwv"></td>
+  <td class="quan true">•</td>
+  <td class="rela true">•</td>
+  <td class="cond"></td></tr></tbody>
+		</table>
+</section>
+
+	
+
+</body></html>
