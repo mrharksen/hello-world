@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphing Calculator</title>
+	<h1 class="Center"> Graphing Calculator </h1>
+</head>
+<body>
+	<link rel="stylesheet" href="Plotter.css">
+<div class="WholeThing">
+<ul class="InputValues">
+	<li class="InsertText">Insert your values here:</li><br>
+
+	<li><input class="InputXY" type="Number" placeholder="y1" id="Y1"></input><input class="InputXY" type="Number" placeholder="x1" id = "X1"></input><input class="InputXY" type="Number" placeholder="Δy1" id="ErrorY1"></input><input class="InputXY" type="Number" placeholder="Δx1" id = "ErrorX1"></input></li>
+
+
+	<li><input class="InputXY" type="Number" placeholder="y2" id="Y2"></input><input class="InputXY" type="Number" placeholder="x2" id = "X2"></input><input class="InputXY" type="Number" placeholder="Δy2" id="ErrorY2"></input><input class="InputXY" type="Number" placeholder="Δx2" id = "ErrorX2"></input></li>
+
+
+	<li><input class="InputXY" type="Number" placeholder="y3" id="Y3"></input><input class="InputXY" type="Number" placeholder="x3" id = "X3"></input><input class="InputXY" type="Number" placeholder="Δy3" id="ErrorY3"></input><input class="InputXY" type="Number" placeholder="Δx3" id = "ErrorX3"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y4" id="Y4"></input><input class="InputXY" type="Number" placeholder="x4" id = "X4"></input><input class="InputXY" type="Number" placeholder="Δy4" id="ErrorY4"></input><input class="InputXY" type="Number" placeholder="Δx4" id = "ErrorX4"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y5" id="Y5"></input><input class="InputXY" type="Number" placeholder="x5" id = "X5"></input><input class="InputXY" type="Number" placeholder="Δy5" id="ErrorY5"></input><input class="InputXY" type="Number" placeholder="Δx5" id = "ErrorX5"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y6" id="Y6"></input><input class="InputXY" type="Number" placeholder="x6" id = "X6"></input><input class="InputXY" type="Number" placeholder="Δy6" id="ErrorY6"></input><input class="InputXY" type="Number" placeholder="Δx6" id = "ErrorX6"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y7" id="Y7"></input><input class="InputXY" type="Number" placeholder="x7" id = "X7"></input><input class="InputXY" type="Number" placeholder="Δy7" id="ErrorY7"></input><input class="InputXY" type="Number" placeholder="Δx7" id = "ErrorX7"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y8" id="Y8"></input><input class="InputXY" type="Number" placeholder="x8" id = "X8"></input><input class="InputXY" type="Number" placeholder="Δy8" id="ErrorY8"></input><input class="InputXY" type="Number" placeholder="Δx8" id = "ErrorX8"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y9" id="Y9"></input><input class="InputXY" type="Number" placeholder="x9" id = "X9"></input><input class="InputXY" type="Number" placeholder="Δy9" id="ErrorY9"></input><input class="InputXY" type="Number" placeholder="Δx9" id = "ErrorX9"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y10" id="Y10"></input><input class="InputXY" type="Number" placeholder="x10" id = "X10"></input><input class="InputXY" type="Number" placeholder="Δy10" id="ErrorY10"></input><input class="InputXY" type="Number" placeholder="Δx10" id = "ErrorX10"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y11" id="Y11"></input><input class="InputXY" type="Number" placeholder="x11" id = "X11"></input><input class="InputXY" type="Number" placeholder="Δy11" id="ErrorY11"></input><input class="InputXY" type="Number" placeholder="Δx11" id = "ErrorX11"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y12" id="Y12"></input><input class="InputXY" type="Number" placeholder="x12" id = "X12"></input><input class="InputXY" type="Number" placeholder="Δy12" id="ErrorY12"></input><input class="InputXY" type="Number" placeholder="Δx12" id = "ErrorX12"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y13" id="Y13"></input><input class="InputXY" type="Number" placeholder="x13" id = "X13"></input><input class="InputXY" type="Number" placeholder="Δy13" id="ErrorY13"></input><input class="InputXY" type="Number" placeholder="Δx13" id = "ErrorX13"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y14" id="Y14"></input><input class="InputXY" type="Number" placeholder="x14" id = "X14"></input><input class="InputXY" type="Number" placeholder="Δy14" id="ErrorY14"></input><input class="InputXY" type="Number" placeholder="Δx14" id = "ErrorX14"></input></li>
+
+	<li><input class="InputXY" type="Number" placeholder="y15" id="Y15"></input><input class="InputXY" type="Number" placeholder="x15" id = "X15"></input><input class="InputXY" type="Number" placeholder="Δy15" id="ErrorY15"></input><input class="InputXY" type="Number" placeholder="Δx15" id = "ErrorX15"></input></li>
+
+	<li><button class="PLOT" onclick="PlotPoints();">PLOT</button></li>
+</ul>
+<canvas width="1000" height="900" id="Plotter" class="Canvas center" style="border:2px solid #000000">></canvas>
+
+<ul class="PlotButtons">
+	<li><button class="PlotEquations" onclick="LinearEquation(); ">Linear equation</button></li>
+	<li><button class="PlotEquations" onclick="QuadradicEquation(); ">Quadratic equation</button></li>
+	<li><button class="PlotEquations" onclick="CubicEquation(); ">Cubic equation</button></li>
+	<li><button class="PlotEquations" onclick="ExponentialEquation(); ">Exponential equation</button></li>
+
+</ul>
+<p class="LT">Tries and loss function:<br>
+	<input type="number" id="Tries" placeholder="Tries (1000000)"></input><br>
+	<input type="Number" id="LossFunction" placeholder="Lossfunction (0.00001)">
+	</input>
+</p>
+
+<ul class="Constants"><strong>
+	<li  id="FirstConstant"><div class="Constantlistitem"></div></li>
+	<li  id="SecondConstant"><div class="Constantlistitem"></div></li>
+	<li  id="ThirdConstant"><div class="Constantlistitem"></div></li>
+	<li  id="FourthConstant"><div class="Constantlistitem"></div></li>
+</ul>
+
+<br>
+<br>
+<br>
+<div Class = "BoP">.</div>
+<script src="Plotter.js"></script>
+</div>
+</body>
+
+</html>
