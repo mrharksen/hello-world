@@ -354,6 +354,8 @@ input::-webkit-inner-spin-button {
 /* The plot buttons on the right */
 .PlotButtons {
 	font-family: 'Vollkorn', serif;
+	display: flex;
+	float: left;
 	list-style-type: none;
 	position: absolute;
 	left: 25vw;
