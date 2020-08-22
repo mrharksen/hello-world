@@ -211,23 +211,12 @@ function RedrawCanvas() {
 
 function ReadLT(lossfunction, tries){
 
-	   if(document.getElementById("LossFunction").value !== ""){
-        var L = parseFloat(document.getElementById("LossFunction").value);
-        console.log("Loss function: "+L);
-    }
-        if(document.getElementById("LossFunction").value == ""){
         var L = lossfunction;
-        console.log("Loss function: "+L);
-    }
+        console.log("Loss function: " + L);
 
-        if(document.getElementById("Tries").value !== ""){
-        var Tries = parseFloat(document.getElementById("Tries").value);
-        console.log("Tries: " + Tries);
-    }
-        if(document.getElementById("Tries").value == ""){
         var Tries = tries;
         console.log("Tries: " + Tries);
-    }
+
     LT = [L, Tries];
     return(LT);
 }

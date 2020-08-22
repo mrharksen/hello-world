@@ -329,6 +329,7 @@ nav ul li ul li a:hover {
 
 /* The inputs of x and y */
 .InputValues {
+	font-family: 'Vollkorn', serif;
 	list-style-type: none;
 	max-width: 20vw;
 	position: absolute;
@@ -352,10 +353,11 @@ input::-webkit-inner-spin-button {
 
 /* The plot buttons on the right */
 .PlotButtons {
+	font-family: 'Vollkorn', serif;
 	list-style-type: none;
 	position: absolute;
-	left: calc(88vw - 15px);
-	top: 115px;
+	left: 25vw;
+	top: 78vh;
 	width: 11vw;
 }
 .PlotEquations:hover{
