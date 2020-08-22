@@ -344,7 +344,7 @@ nav ul li ul li a:hover {
 	text-align:center;
 }
 .InsertText {
-	font-size: 20px;
+	font-size: 16px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -352,14 +352,14 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* The plot buttons on the right */
+/* The plot buttons on the bottom */
 .PlotButtons {
 	font-family: 'Vollkorn', serif;
 	display: flex;
 	float: left;
 	list-style-type: none;
 	position: absolute;
-	left: calc(20vw + 25px);
+	left: 35vw;
 	top: 88vh;
 	width: 11vw;
 }
@@ -367,7 +367,7 @@ input::-webkit-inner-spin-button {
 	background-color: rgb(10, 170, 255);
 }
 .PlotEquations{
-	min-width: 155px;
+	min-width: 160px;
 	width: 20vh;
 	height: 50px;
 }
@@ -388,10 +388,10 @@ input::-webkit-inner-spin-button {
 .Constants{
 	list-style-type: none;
 	position: absolute;
-	left: 5vw;
-	top: 80vh;
+	left: 22vw;
+	top: 88vh;
 	width: 11vw;
-	font-size: 20px;
+	font-size: 16px;
 }
 .Constantlistitem{
 margin-top: 20px;
