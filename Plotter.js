@@ -135,7 +135,7 @@ function RedrawCanvas() {
 	ctx.stroke();
 
 	//Coordinates for the axes 
-	ctx.font = "20px Arial";
+	ctx.font = "14px Calibri";
 
 	// Y
 	for(var i = 0; i<10; i++){
