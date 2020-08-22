@@ -313,6 +313,130 @@ nav ul li ul li a:hover {
 	transform: rotate(45deg) translate(-4px,-6px);
 }
 
+/* Eftirfarandi er frá Kristjáni Leó: */
+
+/* The canvas */
+#Plotter{
+	width: 70vw;
+	height: 60vh;
+    display: block;
+    position: absolute;
+    top: 15vh;
+    left: calc(20vw + 25px);
+}
+
+
+
+/* The inputs of x and y */
+.InputValues {
+	list-style-type: none;
+	max-width: 20vw;
+	position: absolute;
+	left: 25px;
+	top: 15vh;
+}
+.InputXY {
+	max-width: 20%;
+	text-align:center;
+}
+.InsertText {
+	font-size: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* The plot buttons on the right */
+.PlotButtons {
+	list-style-type: none;
+	position: absolute;
+	left: calc(88vw - 15px);
+	top: 115px;
+	width: 11vw;
+}
+.PlotEquations:hover{
+	background-color: rgb(10, 170, 255);
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+.PlotEquations{
+	width: 11vw;
+	height: 50px;
+}
+
+
+
+
+/* The big PLOT button */
+.PLOT {
+	width: 68%;
+	margin-top: 14%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.PLOT:hover{
+	background-color: rgb(10, 170, 255);
+}
+
+
+/* The head, body and html */
+body{
+		margin: 0px;
+        padding-bottom: 400px;
+
+    }
+
+head{}
+
+html{}
+
+
+
+/* The tries and loss function settings */
+.LT{
+	position: absolute;
+	left: 10px;
+	top: 580px;
+	width: 15vw;
+	font-size: 20px;
+}
+#Tries{
+	width: 85%;
+	padding: 15px;
+}
+#LossFunction{
+	width: 85%;
+	padding: 15px;
+} 
+
+
+
+/* Increasing the white space at the bottom of the page */
+.BoP {
+	position: absolute;
+	top: 730px;
+}
+
+
+/* Placement of constants */
+.Constants{
+	list-style-type: none;
+	position: absolute;
+	left: calc(88vw - 15px);
+	top: 350px;
+	width: 11vw;
+	font-size: 20px;
+}
+.Constantlistitem{
+margin-top: 20px;
+}
+.hide{
+	display: none;
+}
 
 
 

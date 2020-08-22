@@ -1,14 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html Lang="is">
 <head>
-	<title>Graphing Calculator</title>
-	<h1 class="Center"> Graphing Calculator </h1>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device_width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Kvasir</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
+
 <body>
-	<link rel="stylesheet" href="Plotter.css">
+
+	<!--Hérna byrjar navigation barið. Það þarf að vera á öllum slóðunum-->
+
+   <nav>
+      <div class="logo">
+         <h4><a href="index.html">Kvasir</a></h4>
+      </div>
+      <ul class="nav-links">
+         <li>
+            <a href="#">Kennsla</a>
+               <ul>
+                  <li><a href="5bekkur.html">5. bekkur</a></li>
+                  <li><a href="6bekkur.html">6. bekkur</a></li>
+               </ul>
+         </li>
+         <li>
+            <a href="#">Keppnir</a>
+               <ul>
+                  <li><a href="mrkeppnir.html">MR</a></li>
+                  <li><a href="forkeppnir.html">Forkeppni</a></li>
+                  <li><a href="landskeppnir.html">Landskeppni</a></li>
+                  <li><a href="eupho.html">EuPhO</a></li>
+                  <li><a href="ipho.html">IPhO</a></li>
+               </ul>
+         </li>
+         <li>
+            <a href="#">Verkefni</a>
+               <ul>
+                  <li><a href="prof.html">Próf</a></li>
+                  <li><a href="hd.html">Heimadæmi</a></li>
+                  <li><a href="annad.html">Annað</a></li>
+               </ul>
+         </li>
+         <li>
+            <a href="pdf/cv_islenska.pdf">CV</a>
+         </li>
+      </ul>
+      <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+      </div>
+   <script src="app.js"></script>   
+   </nav>
+
+   <!--Hérna endar navigation barið-->
+
+
+
 <div class="WholeThing">
 <ul class="InputValues">
-	<li class="InsertText">Insert your values here:</li><br>
+	<li class="InsertText">Sláið inn gögnin ykkar hér:</li><br>
 
 	<li><input class="InputXY" type="Number" placeholder="y1" id="Y1"></input><input class="InputXY" type="Number" placeholder="x1" id = "X1"></input><input class="InputXY" type="Number" placeholder="Δy1" id="ErrorY1"></input><input class="InputXY" type="Number" placeholder="Δx1" id = "ErrorX1"></input></li>
 
@@ -47,17 +101,21 @@
 <canvas width="1000" height="900" id="Plotter" class="Canvas center" style="border:2px solid #000000">></canvas>
 
 <ul class="PlotButtons">
-	<li><button class="PlotEquations" onclick="LinearEquation(); ">Linear equation</button></li>
-	<li><button class="PlotEquations" onclick="QuadradicEquation(); ">Quadratic equation</button></li>
-	<li><button class="PlotEquations" onclick="CubicEquation(); ">Cubic equation</button></li>
-	<li><button class="PlotEquations" onclick="ExponentialEquation(); ">Exponential equation</button></li>
+	<li><button class="PlotEquations" onclick="LinearEquation(); "><div class = "eqn">
+         <img src="svg/eqn/lin.svg"/>
+      </div></button></li>
+	<li><button class="PlotEquations" onclick="QuadradicEquation(); "><div class = "eqn">
+         <img src="svg/eqn/fleyg.svg"/>
+      </div></button></li>
+	<li><button class="PlotEquations" onclick="CubicEquation(); "><div class = "eqn">
+         <img src="svg/eqn/thrid.svg"/>
+      </div></button></li>
+	<li><button class="PlotEquations" onclick="ExponentialEquation(); "><div class = "eqn">
+         <img src="svg/eqn/exp.svg"/>
+      </div></button></li>
 
 </ul>
-<p class="LT">Tries and loss function:<br>
-	<input type="number" id="Tries" placeholder="Tries (1000000)"></input><br>
-	<input type="Number" id="LossFunction" placeholder="Lossfunction (0.00001)">
-	</input>
-</p>
+
 
 <ul class="Constants"><strong>
 	<li  id="FirstConstant"><div class="Constantlistitem"></div></li>
