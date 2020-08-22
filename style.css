@@ -317,12 +317,14 @@ nav ul li ul li a:hover {
 
 /* The canvas */
 #Plotter{
-	width: 70vw;
-	height: 60vh;
+	width: calc(80vw - 50px);
+	height: 70vh;
     display: block;
     position: absolute;
     top: 15vh;
-    left: calc(20vw + 25px);
+    left: 20vw;
+    padding-right: 25px;
+    padding-top: 25px;
 }
 
 
@@ -349,8 +351,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-
-
 /* The plot buttons on the right */
 .PlotButtons {
 	font-family: 'Vollkorn', serif;
@@ -358,22 +358,18 @@ input::-webkit-inner-spin-button {
 	float: left;
 	list-style-type: none;
 	position: absolute;
-	left: 25vw;
-	top: 78vh;
+	left: calc(20vw + 25px);
+	top: 88vh;
 	width: 11vw;
 }
 .PlotEquations:hover{
 	background-color: rgb(10, 170, 255);
-	padding-bottom: 10%;
-	padding-top: 10%;
 }
 .PlotEquations{
-	width: 11vw;
+	min-width: 155px;
+	width: 20vh;
 	height: 50px;
 }
-
-
-
 
 /* The big PLOT button */
 .PLOT {
@@ -387,51 +383,12 @@ input::-webkit-inner-spin-button {
 }
 
 
-/* The head, body and html */
-body{
-		margin: 0px;
-        padding-bottom: 400px;
-
-    }
-
-head{}
-
-html{}
-
-
-
-/* The tries and loss function settings */
-.LT{
-	position: absolute;
-	left: 10px;
-	top: 580px;
-	width: 15vw;
-	font-size: 20px;
-}
-#Tries{
-	width: 85%;
-	padding: 15px;
-}
-#LossFunction{
-	width: 85%;
-	padding: 15px;
-} 
-
-
-
-/* Increasing the white space at the bottom of the page */
-.BoP {
-	position: absolute;
-	top: 730px;
-}
-
-
 /* Placement of constants */
 .Constants{
 	list-style-type: none;
 	position: absolute;
-	left: calc(88vw - 15px);
-	top: 350px;
+	left: 30vw;
+	top: 78vh;
 	width: 11vw;
 	font-size: 20px;
 }
