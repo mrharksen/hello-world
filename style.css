@@ -337,6 +337,7 @@ nav ul li ul li a:hover {
 	position: absolute;
 	left: 25px;
 	top: 15vh;
+	padding-right: 25px;
 }
 .InputXY {
 	max-width: 20%;
@@ -387,8 +388,8 @@ input::-webkit-inner-spin-button {
 .Constants{
 	list-style-type: none;
 	position: absolute;
-	left: 30vw;
-	top: 78vh;
+	left: 5vw;
+	top: 80vh;
 	width: 11vw;
 	font-size: 20px;
 }
